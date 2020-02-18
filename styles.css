@@ -3,12 +3,11 @@
 	box-sizing: border-box;
 }
 h1 {
-	font-family: Brushstroke, fantasy;
+	font-family: 'Montserrat', sans-serif;
 	color: #000000;
 }
 body {
-	background-image: url("background.jpg");
-	background-color: #FFCE00;
+	background-color:whitesmoke;
 }
 p {
 	padding: 10px;
@@ -24,52 +23,54 @@ p {
 }
 section {
 	border:	1px solid black;
-	background-color: #00FF99;
+	background-color: #00cccc;
 	width: 100%;
 	height: auto;
-	font-family: Helvetica;
+	font-family: 'Montserrat', sans-serif;
 	color: black;
 	position: relative;
 	overflow: auto;
 }
 #chicken {
 	border: 1px solid black;
-	text-align: center;
+	text-align: justify;
 	width: 30%;
 	margin-left: 70%;
-	font-family: Georgia,sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 	font-size: 125%;
 	margin-bottom: 0;
 	margin-top: 0;
 	padding: 5px;
-	background-color: #007849;
+	background-color:yellow;
+  color: rgb(0, 0, 0);
 }
 
 #beef {
 	border: 1px solid black;
-	text-align: center;
+	text-align: justify;
 	width: 30%;
 	margin-left: 70%;
-	font-family: Georgia,sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 	font-size: 125%;
 	margin-bottom: 0;
 	margin-top: 0;
 	padding: 5px;
-	background-color: #007849;
+	background-color: red;
+  color: white;
 }
 #sushi {
 	border: 1px solid black;
-	text-align: center;
+	text-align: justify;
 	width: 30%;
 	margin-left: 70%;
-	font-family: Georgia,sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 	font-size: 125%;
 	margin-bottom: 0;
 	margin-top: 0;
-	background-color: #007849;
+	background-color:green;
 	color: white;
 	padding: 5px;
 }
@@ -92,7 +93,7 @@ section {
 }
 #header-nav {
   border: 0;
-  background-color: #FC5F06;
+  background-color: rgb(216, 136, 124);
   color: #FFFFFF;
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
